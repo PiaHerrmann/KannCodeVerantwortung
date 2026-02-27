@@ -36,17 +36,8 @@ chi_test_reduced
 # Permuationversion chi^2- Test
 # H0 :Die Verteilung der Wenn‑Dann‑Konstruktionen ist unabhängig von der Partei.
 set.seed(123)
-pvals <- c(
-  chisq.test(tab, simulate.p.value=TRUE, B=1000)$p.value,
-  chisq.test(tab, simulate.p.value=TRUE, B=5000)$p.value,
-  chisq.test(tab, simulate.p.value=TRUE, B=10000)$p.value,
-  chisq.test(tab, simulate.p.value=TRUE, B=50000)$p.value
-)
-names(pvals) <- c("B=1k","B=5k","B=10k","B=50k")
-pvals
-#        B=1k        B=5k       B=10k 
-# 9.99001e-04 1.99960e-04 9.99900e-05 
-#       B=50k 
+chisq.test(tab, simulate.p.value=TRUE, B=50000)
+
 # 1.99996e-05
 #-> H_0 wird abgelehnt
 #-> Die Verteilung der Wenn‑Dann‑Konstruktionen
@@ -74,6 +65,14 @@ chi_test_persona
 # 
 # data:  tab_persona
 # X-squared = 241.88, df = 224, p-value = 0.1964
-# H_0 kann nicht abgelehnt werden
 
+chisq.test(tab_persona, simulate.p.value=TRUE, B=50000)
+
+# 	Pearson's Chi-squared test with
+# 	simulated p-value (based on 50000
+# 	replicates)
+# 
+# data:  tab_persona
+# X-squared = 241.88, df = NA,
+# p-value = 0.2338
 
