@@ -1,0 +1,44 @@
+Partei;Typ_Label;n
+AfD;anderer Kontext;7
+AfD;Migrationspolitik;5
+AfD;verweigert Aussage;3
+AfD;Verkehrspolitik;1
+CDU;Wirtschaft;37
+CDU;anderer Kontext;19
+CDU;verweigert Aussage;3
+CDU;Migrationspolitik;1
+CDU;Soziales;1
+CDU;Verkehrspolitik;1
+FDP;Wirtschaft;33
+FDP;anderer Kontext;25
+FDP;verweigert Aussage;3
+FDP;Soziales;2
+FDP;Antwort uneindeutig;1
+FDP;Umwelt;1
+FDP;Verkehrspolitik;1
+FW;anderer Kontext;6
+FW;verweigert Aussage;3
+FW;Migrationspolitik;1
+FW;Verkehrspolitik;1
+Gruene;Umwelt;42
+Gruene;Soziales;11
+Gruene;anderer Kontext;10
+Gruene;verweigert Aussage;3
+Gruene;Antwort uneindeutig;2
+Gruene;Wirtschaft;2
+Gruene;Verkehrspolitik;1
+Linke;Soziales;23
+Linke;anderer Kontext;4
+Linke;verweigert Aussage;3
+Linke;Antwort uneindeutig;1
+Linke;Umwelt;1
+SPD;Soziales;37
+SPD;anderer Kontext;15
+SPD;Umwelt;4
+SPD;Wirtschaft;3
+SPD;verweigert Aussage;3
+SPD;Antwort uneindeutig;1
+SPD;Verkehrspolitik;1
+Weitere;anderer Kontext;6
+Weitere;Umwelt;3
+Weitere;verweigert Aussage;3

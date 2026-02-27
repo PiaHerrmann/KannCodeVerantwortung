@@ -1,0 +1,66 @@
+KI;Partei;Typ_Label;n
+Chat-GPT 5.2;AfD;Migrationspolitik;5
+Chat-GPT 5.2;AfD;anderer Kontext;7
+Chat-GPT 5.2;AfD;verweigert Aussage;2
+Chat-GPT 5.2;CDU;Migrationspolitik;1
+Chat-GPT 5.2;CDU;Sozialpolitik;1
+Chat-GPT 5.2;CDU;Wirtschaftspolitik;35
+Chat-GPT 5.2;CDU;anderer Kontext;17
+Chat-GPT 5.2;CDU;verweigert Aussage;2
+Chat-GPT 5.2;FDP;Antwort uneindeutig;1
+Chat-GPT 5.2;FDP;Sozialpolitik;2
+Chat-GPT 5.2;FDP;Umweltpolitik;1
+Chat-GPT 5.2;FDP;Verkehrspolitik;1
+Chat-GPT 5.2;FDP;Wirtschaftspolitik;31
+Chat-GPT 5.2;FDP;anderer Kontext;19
+Chat-GPT 5.2;FDP;verweigert Aussage;2
+Chat-GPT 5.2;FW;Migrationspolitik;1
+Chat-GPT 5.2;FW;Verkehrspolitik;1
+Chat-GPT 5.2;FW;anderer Kontext;3
+Chat-GPT 5.2;FW;verweigert Aussage;2
+Chat-GPT 5.2;Gruene;Antwort uneindeutig;1
+Chat-GPT 5.2;Gruene;Sozialpolitik;11
+Chat-GPT 5.2;Gruene;Umweltpolitik;39
+Chat-GPT 5.2;Gruene;Verkehrspolitik;1
+Chat-GPT 5.2;Gruene;Wirtschaftspolitik;1
+Chat-GPT 5.2;Gruene;anderer Kontext;7
+Chat-GPT 5.2;Gruene;verweigert Aussage;2
+Chat-GPT 5.2;Linke;Antwort uneindeutig;1
+Chat-GPT 5.2;Linke;Sozialpolitik;23
+Chat-GPT 5.2;Linke;Umweltpolitik;1
+Chat-GPT 5.2;Linke;anderer Kontext;3
+Chat-GPT 5.2;Linke;verweigert Aussage;2
+Chat-GPT 5.2;SPD;Antwort uneindeutig;1
+Chat-GPT 5.2;SPD;Sozialpolitik;36
+Chat-GPT 5.2;SPD;Umweltpolitik;4
+Chat-GPT 5.2;SPD;Verkehrspolitik;1
+Chat-GPT 5.2;SPD;Wirtschaftspolitik;2
+Chat-GPT 5.2;SPD;anderer Kontext;11
+Chat-GPT 5.2;SPD;verweigert Aussage;2
+Chat-GPT 5.2;Weitere;Umweltpolitik;3
+Chat-GPT 5.2;Weitere;anderer Kontext;5
+Chat-GPT 5.2;Weitere;verweigert Aussage;2
+Gemini FAST;AfD;Verkehrspolitik;1
+Gemini FAST;AfD;verweigert Aussage;1
+Gemini FAST;CDU;Verkehrspolitik;1
+Gemini FAST;CDU;Wirtschaftspolitik;2
+Gemini FAST;CDU;anderer Kontext;2
+Gemini FAST;CDU;verweigert Aussage;1
+Gemini FAST;FDP;Wirtschaftspolitik;2
+Gemini FAST;FDP;anderer Kontext;6
+Gemini FAST;FDP;verweigert Aussage;1
+Gemini FAST;FW;anderer Kontext;3
+Gemini FAST;FW;verweigert Aussage;1
+Gemini FAST;Gruene;Antwort uneindeutig;1
+Gemini FAST;Gruene;Umweltpolitik;3
+Gemini FAST;Gruene;Wirtschaftspolitik;1
+Gemini FAST;Gruene;anderer Kontext;3
+Gemini FAST;Gruene;verweigert Aussage;1
+Gemini FAST;Linke;anderer Kontext;1
+Gemini FAST;Linke;verweigert Aussage;1
+Gemini FAST;SPD;Sozialpolitik;1
+Gemini FAST;SPD;Wirtschaftspolitik;1
+Gemini FAST;SPD;anderer Kontext;4
+Gemini FAST;SPD;verweigert Aussage;1
+Gemini FAST;Weitere;anderer Kontext;1
+Gemini FAST;Weitere;verweigert Aussage;1
