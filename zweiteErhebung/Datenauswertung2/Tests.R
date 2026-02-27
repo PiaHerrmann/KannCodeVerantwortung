@@ -2,13 +2,27 @@ print(setwd(dirname(rstudioapi::getSourceEditorContext()$path)))
 source("Gesamtauswertung.R")
 library(reshape2)
 library(ggplot2)
-
+library(stringr)
 
 # chi^2- Test
 # H0 :Die Verteilung der Wenn‑Dann‑Konstruktionen ist unabhängig von der Partei.
-konstr_counts <- long_konstr %>% count(Partei, Typ_Label)
-tab <- table(long_konstr$Partei, long_konstr$Typ_Label)
-chi_test <- chisq.test(tab)
+library(dplyr)
+library(stringr)
+
+long_konstr_reduced <- long_konstr %>%
+  mutate(Typ_Label = case_when(
+    str_detect(Typ_Label, "uneindeutig") ~ "Sonstige",
+    str_detect(Typ_Label, "verweigert") ~ "Sonstige",
+    str_detect(Typ_Label, "anderer Kontext") ~ "Sonstige",
+    str_detect(Typ_Label, "Verkehrspolitik") ~ "Sonstige",
+    TRUE ~ Typ_Label                      # alle anderen bleiben gleich
+  ))
+tab_reduced <- table(long_konstr_reduced$Partei,
+                     long_konstr_reduced$Typ_Label)
+
+chi_test_reduced <- chisq.test(tab_reduced)
+chi_test_reduced
+fischer=fisher.test(tab)
 chi_test
 # 
 # 	Pearson's Chi-squared test
